@@ -1,0 +1,129 @@
+
+
+-------------------------------------code for server-----------------------------
+1] open netbeans
+2] create new project java web application 
+3] finish ( no frameworks )
+4] Right click on Project Name->New->web Service
+5] Right Click on Web Serive-> Add Operation
+6]Right click on project -> click on "clean and build" -> click on "Deploy"
+
+
+-------------------------------code for client ---------------------------------
+1) open netbeans
+2) create new project java web application 
+3] finish ( no frameworks )
+4] Right click on Project Name->New->web Service Client(In web service client browse the path of function created in web server)
+5) Add form to index.html file present in "web pages" folder of client.
+6) Create Servelet     click on "sources packages"-> click on "Servelet"(Servelet name === form action value present in inex.html)
+7) IMP: while creating servelet be cautious about ticking the check after giving name to servelet
+8) Drag and drop the method in "web services" to servelet file
+9) Parse the data coming from client in servelet file and run the above dragged method in body of servelet file
+10) right click in index.html and slect run file (dont run and build)
+
+
+The image contains handwritten notes with steps on how to create and deploy a Java web application. The notes are divided into two sections, likely indicating server-side and client-side steps. Here is the text:
+
+---
+
+(Server Side)
+
+1. New Project
+   Server
+   Java Web/App
+   → name bile
+
+2. RC Webservice (NEW)
+   → Calculator
+   → Pack: com.uniqe
+
+3. uddi@web (index.html)
+
+4. Webservice - cal :
+   → Add operation
+   → name method + vars
+   → return type
+
+5. index.html:
+   → return type (num1+ num2)
+
+6. Run + clean & Build
+   → RC server
+
+7. Deploy.
+
+---
+
+(Client Side)
+
+1. new proj
+   → java web/App
+   → name file.
+
+2. RC Webservice Client
+   → project → Browse
+   → calculator
+   → ok
+
+3. drag & drop
+   → form + submit + zip
+
+4. action = calculator
+   → submit2
+
+5. source package
+   → Create Servlet
+   → websrvc client → RC
+   → Servlet → tick the add into ✓
+
+6. 
+   → request.getParameter("num1")
+   → client → go deep → getime
+
+7. drag & drop
+   → Teacher's Sign.
+
+---
+
+The notes appear to be instructions for setting up a calculator service using Java web technologies and deploying it to a server, as well as setting up the client side to interact with this service. The exact sequence and some parts of the steps are not fully clear, possibly due to the shorthand and abbreviations used.
+
+
+
+
+
+
+
+
+Assignment 7.
+ServerO New Anject
+Savaweb /App.
+name file
+• Rc wenservice (New)
+Caculato
+t
+Раск: dom unique.
+3 uddav @ web cindex.htmi
+4 wen senice: cal: *
+Add Operation
+name nurrod + vars
+0 Index. html:
+ktim t (num/t num2)
+6 Run + Clean Build
+RC
+3 Деріо.
+server
+Client.
+О пеш род
+Java weD /App name file.
+RC Wensenice Client-profect → Browse
+少
+calcuatoo
+ок
+3 drag & drop.
+borm + submit+2i/p.
+action: calculator Linus
+Creat semelet. websenice client→ec
+Servelet.
+Ack the add into
+int num|: Integer parsent (request, got Parameter (num)
+(lent → go deep → getme dragS drop.
